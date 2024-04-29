@@ -1,87 +1,69 @@
-# doggy
- 
-Folder Structure
-React js version folder structure
-image
+# Getting Started with Create React App
 
-/app
-/app app folder contains the root of the app. also we did the app routing here.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-/assets
-/assets In assets folder, you will find the data, images and styles folder. In data folder, you will find all of data uses in this template. You will also find the image folder, where all of the images are kept on the basis of the specific page. In theme folder, you will find all of themeing uses in this template.
+## Available Scripts
+In the project directory, you can run:
 
-/components
-/components folder is most importantly use, you will find some common components like:
+### `npm start`
 
-accordion
-button
-cardHeader
-counter
-layout
-modal
-pagination
-progressBar
-sectionTitle
-slider
-/sections
-/sections Here all the section include that’s we are used in our template like banner, about, team, roadmap, cta, FAQ etc...
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-/pages
-/pages In pages folder you will find the all pages
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-Fonts
-https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Russo+One&display=swap
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-font-family: "Russo One", sans-serif;
+### `npm run build`
 
-font-family: "Inter", sans-serif;
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Deploy
-GamFi react version Deploy
-netlify
-Navigate to gamfi-react
-run command:
-npm run build
-after the build process is done. you will find a new folder called /build
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-npm install netlify-cli --save-dev
-netlify login
-after the login process is done
+### `npm run eject`
 
-run command: netlify deploy
-choose +Create & configure a new site
-give you site name
-path to deploy: ./build
-after the build process once done, run command:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-netlify deploy --prod
-path to deploy: ./build
-for more information: How to deploy React Apps in netlify
-You will find react.js app deployment complete guide here: React.js app Deployment
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-GamFi nextjs version Deploy
-vercel
-Navigate to gamfi-next
-for deploying to vercel using terminal you need to install vercel-cli on your machine Read more...
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-npm install vercel --save-dev
-run command:
-vercel login
-After the login process is done. run command:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-vercel
-after the deploy process is done. then deploy the production version
+## Learn More
 
-vercel --prod
-For more information How to Deploy a Next.js Site with Vercel
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-For other hosting provider please visit next.js app deployment
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-GamFi nextjs static build
-Navigate to gamfi-next
-run command npm run export
-after the export is done you will get a folder called out. Host that folder anywhere you want
-to see the export build, run command: npm run start
-note: images and route will not work in local server
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
