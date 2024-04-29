@@ -40,6 +40,12 @@ const NavWrapper = styled.nav`
     .logo {
       a {
         display: inline-block;
+        img {
+          max-width: 100%; /* ensures the image is never wider than its container */
+          max-height: 80px; /* you can adjust this value to fit the header's height */
+          height: auto; /* maintains aspect ratio */
+          width: auto; /* maintains aspect ratio */
+        }
       }
     }
   }

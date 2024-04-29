@@ -56,16 +56,16 @@ const LiveProject = () => {
                 <div className="game-price-inner">
                   <div className="total-price">
                     <div className="price-inner d-flex mb-45 md-mb-20">
-                      <div className="image-icon">
+                      {/* <div className="image-icon">
                         <a href="/projects-details-1">
                           <img src={item.projectIcon} alt="icon" />
                         </a>
-                      </div>
+                      </div> */}
                       <div className="price-details">
                         <h3 className="mb-15">
                           <a href="/projects-details-1">{item.title}</a>
                         </h3>
-                        <div className="dsc">PRICE (DDO) = {item.price}</div>
+                        {/* <div className="dsc">Current PRICE = {item.price}</div> */}
                       </div>
                     </div>
                     <div className="all-raise">
@@ -74,21 +74,22 @@ const LiveProject = () => {
                   </div>
                   <div className="allocation-max text-center">
                     <img src={item.coinIcon} alt="icon" />
-                    <div className="allocation">
+                    {/* <div className="allocation">
                       Allocation: {item.allocation}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="targeted-raise">
-                    <div className="seles-end-text">Sale End In</div>
-                    <Countdown date="2024-02-01T01:02:03" renderer={CountdownRender} />
-                    <div className="targeted-raise-amount">
+                  {/* Total Raise {item.totalRise} */}
+                    {/* <div className="seles-end-text">Sale End In</div> */}
+                    {/* <Countdown date="2024-02-01T01:02:03" renderer={CountdownRender} /> */}
+                    {/* <div className="targeted-raise-amount">
                       Targeted Raise {item.targetedRise}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
-                <div className="progress-inner">
+                {/* <div className="progress-inner">
                   <ProgressBar progress={item.progress} />
-                </div>
+                </div> */}
 
                 {/* hover */}
                 <CardHover />

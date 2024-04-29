@@ -48,7 +48,7 @@ const Partner = () => {
   return (
     <PartnerStyleWrapper>
       <div className="container">
-        <SectionTitle isCenter={true} subtitle="OUR PARTNERS" />
+        <SectionTitle isCenter={true} subtitle="A team with a strong background" />
 
         <div className="row">
           <Slider {...sliderSettings}>

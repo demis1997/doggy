@@ -25,8 +25,8 @@ export default function HomeOne() {
         <Header />
         <Banner />
         <About />
-        <NextProjects />
-        <PreviousProjects />
+        {/* <NextProjects /> */}
+        {/* <PreviousProjects /> */}
         <Statistics />
         <Team />
         <Partner />

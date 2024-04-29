@@ -23,21 +23,6 @@ const Header = () => {
     setMobileMenu(!isMobileMenu);
   };
 
-  // *******Comment out this code blew if you want to use sticky menu *******
-  // useEffect(() => {
-  //   const header = document.getElementById("navbar");
-  //   const handleScroll = window.addEventListener("scroll", () => {
-  //     if (window.pageYOffset > 50) {
-  //       header.classList.add("sticky");
-  //     } else {
-  //       header.classList.remove("sticky");
-  //     }
-  //   });
-
-  //   return () => {
-  //     window.removeEventListener("sticky", handleScroll);
-  //   };
-  // }, []);
 
   const handleWalletBtn = (e) => {
     e.preventDefault();

@@ -40,10 +40,7 @@ export default {
               title: "Max allocation",
               text: "900.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "200,000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -87,10 +84,7 @@ export default {
               title: "Max allocation",
               text: "300.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "899,900 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -134,10 +128,7 @@ export default {
               title: "Max allocation",
               text: "1000.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "50,00,000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -181,10 +172,7 @@ export default {
               title: "Max allocation",
               text: "399.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "50,0000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -228,10 +216,7 @@ export default {
               title: "Max allocation",
               text: "800.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "999,0000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -275,10 +260,7 @@ export default {
               title: "Max allocation",
               text: "500.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "869,0000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -329,10 +311,7 @@ export default {
               title: "Max allocation",
               text: "1000.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "50,00,000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -376,10 +355,7 @@ export default {
               title: "Max allocation",
               text: "399.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "50,0000 BUSD",
-            },
+       
             {
               title: "Access type",
               text: "Public",
@@ -423,10 +399,7 @@ export default {
               title: "Max allocation",
               text: "800.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "999,0000 BUSD",
-            },
+ 
             {
               title: "Access type",
               text: "Public",
@@ -470,10 +443,7 @@ export default {
               title: "Max allocation",
               text: "500.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "869,0000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -524,10 +494,7 @@ export default {
               title: "Max allocation",
               text: "300.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "899,900 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -571,10 +538,7 @@ export default {
               title: "Max allocation",
               text: "1000.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "50,00,000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -618,10 +582,7 @@ export default {
               title: "Max allocation",
               text: "399.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "50,0000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -665,10 +626,7 @@ export default {
               title: "Max allocation",
               text: "800.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "999,0000 BUSD",
-            },
+
             {
               title: "Access type",
               text: "Public",
@@ -712,10 +670,7 @@ export default {
               title: "Max allocation",
               text: "500.00 BUSD",
             },
-            {
-              title: "Targeted raise",
-              text: "869,0000 BUSD",
-            },
+     
             {
               title: "Access type",
               text: "Public",

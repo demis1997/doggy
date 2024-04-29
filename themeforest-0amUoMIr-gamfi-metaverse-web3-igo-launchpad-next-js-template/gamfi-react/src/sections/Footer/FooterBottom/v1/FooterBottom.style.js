@@ -11,6 +11,11 @@ const FooterStyleWrapper = styled.div`
   .footer-logo {
     margin-bottom: 45px;
     display: inline-block;
+    img {
+      max-width: 120px; /* Adjust this value as necessary, or use a percentage */
+      height: auto; /* This will maintain the aspect ratio of the logo */
+    }
+
   }
 
   .footer-menu {
