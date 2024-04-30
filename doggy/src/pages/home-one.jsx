@@ -28,7 +28,7 @@ export default function HomeOne() {
         {/* <NextProjects /> */}
         {/* <PreviousProjects /> */}
         <Statistics />
-        <Team />
+        {/* <Team /> */}
         <Partner />
         <Footer />
       </Layout>
