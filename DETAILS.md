@@ -1,44 +1,66 @@
 
-# App Description
+# Zero Knowledge Application Development
 
-The application is a competitive platform that allows users to participate in coding competitions, track their progress, and manage their profiles. Users can connect via GitHub, view and edit their profiles, view leaderboard rankings, and participate in competitions. The app integrates with MongoDB for data storage and GitHub for authentication and repository management.
+## Overview
 
-## To-Do List for Optimization and Bug Fixing
+Welcome to the Zero Knowledge (ZK) application development repository! This project aims to build a cutting-edge application leveraging Zero Knowledge proofs to enhance privacy and security. The application will demonstrate the use of ZK proofs in various scenarios, such as secure authentication, privacy-preserving transactions, and more.
 
-### Security Enhancements:
-- Implement advanced encryption for user data stored in MongoDB.
-- Ensure secure transmission of data by enforcing HTTPS and using secure cookies.
-- Validate and sanitize all user inputs to prevent injection attacks.
-- Implement rate limiting to prevent brute force attacks on login endpoints.
+## Project Structure
 
-### Performance Optimization:
-- Optimize MongoDB queries for faster data retrieval, especially on leaderboard and profile pages.
-- Implement database indexing where necessary to improve query performance.
-- Use caching mechanisms like Redis for frequently accessed data to reduce load times.
-- Minimize the size of API responses by using selective data fetching (e.g., GraphQL or MongoDB projections).
-- Optimize image loading by using lazy loading and serving optimized image formats (e.g., WebP).
+```
+├── src
+│   ├── contracts          # ZK proof smart contracts
+│   ├── backend            # Backend logic and APIs
+│   ├── frontend           # Frontend application
+│   └── tests              # Test cases for ZK proofs and application logic
+├── README.md              # Project documentation and tasks
+├── DETAILS.md             # Detailed project information and goals
+└── .env.example           # Example environment configuration
+```
 
-### User Experience Improvements:
-- Improve the loading times of the competition and leaderboard pages by optimizing the data fetch process.
-- Add a loading spinner or progress bar during data fetching to enhance user experience.
-- Ensure the user interface is responsive and performs well on various screen sizes.
-- Fix any issues with folder expansion in the repository view to avoid flickering or loading failures.
+## Getting Started
 
-### Bug Fixing:
-- Address any existing bugs related to profile updates, including social link validation.
-- Fix issues with folder expansion and file viewing in the competition repository section.
-- Resolve any errors related to authentication, especially around GitHub OAuth integration.
-- Test and fix any edge cases where the application might crash or behave unexpectedly.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/zk-application.git
+    cd zk-application
+    ```
 
-### Code Optimization:
-- Refactor and clean up the codebase to reduce redundancy and improve readability.
-- Implement code splitting and lazy loading for React components to improve initial load times.
-- Conduct a thorough audit of dependencies and remove any unused or outdated libraries.
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-## Focus Areas
-- **Security**: Enhance encryption and data protection mechanisms.
-- **Performance**: Speed up MongoDB operations and overall application load times.
-- **User Experience**: Smoothen interactions, especially in dynamic sections like the competition repository view.
-- **Reliability**: Ensure the app is free of bugs and can handle edge cases gracefully.
+3. **Set up environment variables**:
+    - Copy the `.env.example` file to `.env` and configure your environment variables.
 
-These optimizations aim to make the application faster, more secure, and more user-friendly.
+4. **Run the development server**:
+    ```bash
+    npm start
+    ```
+
+## Tasks
+
+### Task 1: Set Up Development Environment
+- Install the necessary tools and libraries.
+- Set up the local environment for ZK proof development.
+
+### Task 2: Implement ZK Proofs
+- Develop ZK proof algorithms for specific use cases (e.g., authentication, transactions).
+- Write smart contracts or logic using ZK libraries.
+
+### Task 3: Build the Application Logic
+- Integrate ZK proofs with the backend.
+- Ensure secure data flow and operations using ZK.
+
+### Task 4: Integrate with Frontend
+- Connect the backend with the frontend application.
+- Provide a user-friendly interface for interacting with ZK features.
+
+### Task 5: Testing and Debugging
+- Write test cases for ZK proofs and application logic.
+- Debug any issues and ensure the application functions correctly.
+
+### Task 6: Documentation
+- Document the ZK proof implementation and usage.
+- Provide guides for developers and users.
