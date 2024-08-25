@@ -1,4 +1,4 @@
-# does this work? readme here
+# How to run the project and tests
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
